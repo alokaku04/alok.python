@@ -7,10 +7,7 @@ def grid(row, column):
                 print ('+')
                 for y in range(0, 4):
                         for columns in range(0, column):
-                                print ('/', end='')
-                                for z in range(0, 4):
-                                        print (' ', end='')
-                        print ('/')
+        
         for columns in range(0, column):
                         print ('+', end='')
                         for z in range(0, 4):
